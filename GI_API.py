@@ -34,7 +34,7 @@ def get_and_write_data(api_url, md_file):
         game_latest = data["data"]["game"]["latest"]
         md_content += "## Latest version\n\n"
         md_content += "- **Version number**：" + game_latest["version"] + "\n"
-        md_content += "- **Size**：" + str(bytes_to_gb(int(game_latest["size"]))) + " GB\n" # Convert bytes to gigabytes
+        md_content += "- **Full Size**：" + str(bytes_to_gb(int(game_latest["size"]))) + " GB (Client + All Languages Voice Packs Unpacked Size)\n" # Convert bytes to gigabytes
         md_content += "- **MD5 checksum**：" + game_latest["md5"] + "\n"
         md_content += "- **Entry file**：" + game_latest["entry"] + "\n\n"
         # Get the segment download information of the game
@@ -77,7 +77,7 @@ def get_and_write_data(api_url, md_file):
             pre_download_game = data["data"]["pre_download_game"]["latest"]
             md_content += "# Pre-Downloads\n\n"
             md_content += "- **Version number**：" + pre_download_game["version"] + "\n"
-            md_content += "- **Size**：" + str(bytes_to_gb(int(pre_download_game["size"]))) + " GB\n" # Convert bytes to gigabytes
+            md_content += "- **Full Size**：" + str(bytes_to_gb(int(pre_download_game["size"]))) + " GB (Client + All Languages Voice Packs Unpacked Size)\n" # Convert bytes to gigabytes
             md_content += "- **MD5 checksum**：" + pre_download_game["md5"] + "\n"
             md_content += "- **Entry file**：" + pre_download_game["entry"] + "\n\n"
             # Get the pre-download segment download information of the game
