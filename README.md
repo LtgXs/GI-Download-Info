@@ -5,7 +5,7 @@ This document is based on the api url provided by miHoYo to get the lastest down
 ## Latest version
 
 - **Version number**：4.3.0
-- **Size**：134.76 GB
+- **Full Size**：134.76 GB (Client + All Languages Voice Packs Unpacked Size)
 - **MD5 checksum**：345e831167afa6e52eddab4ff06da7e5
 - **Entry file**：GenshinImpact.exe
 
@@ -58,7 +58,7 @@ This document is based on the api url provided by miHoYo to get the lastest down
 # Pre-Downloads
 
 - **Version number**：4.4.0
-- **Size**：142.18 GB
+- **Full Size**：142.18 GB (Client + All Languages Voice Packs Unpacked Size)
 - **MD5 checksum**：dfc32efdcb1bb0815d5da552839436c9
 - **Entry file**：GenshinImpact.exe
 
