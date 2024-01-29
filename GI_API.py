@@ -57,7 +57,7 @@ def get_and_write_data(api_url, md_file):
         diffs = data["data"]["game"]["diffs"]
         md_content += "## Client Diff files\n\n"
         md_content += "| Diff version | Download link | Size | Package size | MD5 checksum |\n"
-        md_content += "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
+        md_content += "| :---: | :---: | :---: | :---: | :---: |\n"
         for diff in diffs:
             md_content += "| " + diff["version"] + "-" + game_latest["version"] +" | [" + diff["name"] + "](" + diff["path"] + ") | " + str(bytes_to_gb(int(diff["size"]))) + " GB | " + str(bytes_to_gb(int(diff["package_size"]))) + " GB | " + diff["md5"] + " |\n" # Convert bytes to gigabytes
         md_content += "\n"
