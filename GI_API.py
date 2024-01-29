@@ -75,7 +75,7 @@ def get_and_write_data(api_url, md_file):
         if "pre_download_game" in data["data"]:
             # Get the pre-download information of the game
             pre_download_game = data["data"]["pre_download_game"]["latest"]
-            md_content += "## The pre-download information of the game\n\n"
+            md_content += "# Pre-Downloads\n\n"
             md_content += "- **Version number**：" + pre_download_game["version"] + "\n"
             md_content += "- **Size**：" + str(bytes_to_gb(int(pre_download_game["size"]))) + " GB\n" # Convert bytes to gigabytes
             md_content += "- **MD5 checksum**：" + pre_download_game["md5"] + "\n"
