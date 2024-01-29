@@ -55,7 +55,7 @@ This document is based on the api url provided by miHoYo to get the lastest down
 | ja-jp | [ja-jp_4.1.0_4.3.0_hdiff_gbIDuPQWRrc12NeO.zip](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/10/ja-jp_4.1.0_4.3.0_hdiff_gbIDuPQWRrc12NeO.zip) | 2.0 GB | 0.9 GB | FF2A2351D5351B435D3120B83EA9DDFE |
 | ko-kr | [ko-kr_4.1.0_4.3.0_hdiff_qgPnM26ijOAyFsoJ.zip](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/10/ko-kr_4.1.0_4.3.0_hdiff_qgPnM26ijOAyFsoJ.zip) | 1.62 GB | 0.76 GB | 65F596FF107F540F9A386C96998A7094 |
 
-## The pre-download information of the game
+# Pre-Downloads
 
 - **Version number**：4.4.0
 - **Size**：142.18 GB
