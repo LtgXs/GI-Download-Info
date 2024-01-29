@@ -33,7 +33,7 @@ This document is based on the api url provided by miHoYo to get the lastest down
 ## Client Diff files
 
 | Diff version | Download link | Size | Package size | MD5 checksum |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: |
 | 4.2.0-4.3.0 | [game_4.2.0_4.3.0_hdiff_YQPfi2FIskEr085l.zip](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/10/game_4.2.0_4.3.0_hdiff_YQPfi2FIskEr085l.zip) | 22.87 GB | 11.2 GB | 15E9358CDED433F9ADAF51026819B3EE |
 | 4.1.0-4.3.0 | [game_4.1.0_4.3.0_hdiff_aHVFC5jtk4JnmSQy.zip](https://autopatchhk.yuanshen.com/client_app/update/hk4e_global/10/game_4.1.0_4.3.0_hdiff_aHVFC5jtk4JnmSQy.zip) | 36.6 GB | 18.06 GB | CDD90E29DCEE2E3B8691C0E24DCAFE41 |
 
