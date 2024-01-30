@@ -72,7 +72,7 @@ def get_and_write_data(api_url, md_file):
             md_content += "\n"
 
         # Judge whether there is a pre_download_game field
-        if "pre_download_game" in data["data"]:
+        if "pre_download_game" in data["data"] and data["data"]["pre_download_game"] is not None:
             # Get the pre-download information of the game
             pre_download_game = data["data"]["pre_download_game"]["latest"]
             md_content += "# Pre-Downloads\n\n"
